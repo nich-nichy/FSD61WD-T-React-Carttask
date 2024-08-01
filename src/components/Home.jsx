@@ -1,14 +1,20 @@
-import React from "react";
+import { useState } from "react";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Products from "./Products";
 
-const Home = () => {
+const Home = ({ currentProduct, setCurrentProduct }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <>
-      <Navbar />
+      <Navbar currentProduct={currentProduct} />
       <Hero />
-      <Products />
+      <Products
+        currentProduct={currentProduct}
+        setCurrentProduct={setCurrentProduct}
+        isModalOpen={isModalOpen}
+        setIsModalOpen={setIsModalOpen}
+      />
     </>
   );
 };

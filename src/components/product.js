@@ -1,5 +1,7 @@
 let product = [
   {
+    id: "1",
+    quantity: 0,
     title: "Fancy Product",
     sale: false,
     review: false,
@@ -12,6 +14,9 @@ let product = [
       "https://images.pexels.com/photos/1667088/pexels-photo-1667088.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
+    id: "2",
+    quantity: 0,
+
     title: "Special Item",
     sale: true,
     review: true,
@@ -24,6 +29,9 @@ let product = [
       "https://images.pexels.com/photos/258244/pexels-photo-258244.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
+    id: "3",
+    quantity: 0,
+
     title: "Sale Item",
     sale: true,
     review: false,
@@ -36,6 +44,9 @@ let product = [
       "https://images.pexels.com/photos/3612182/pexels-photo-3612182.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
+    id: "4",
+    quantity: 0,
+
     title: "Popular Item",
     sale: false,
     review: true,
@@ -48,6 +59,9 @@ let product = [
       "https://images.pexels.com/photos/4389678/pexels-photo-4389678.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
+    id: "5",
+    quantity: 0,
+
     title: "Sale Item",
     sale: true,
     review: false,
@@ -60,6 +74,9 @@ let product = [
       "https://images.pexels.com/photos/3616984/pexels-photo-3616984.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
+    id: "6",
+    quantity: 0,
+
     title: "Fancy Product",
     sale: false,
     review: false,
@@ -72,6 +89,9 @@ let product = [
       "https://images.pexels.com/photos/2720447/pexels-photo-2720447.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
+    id: "7",
+    quantity: 0,
+
     title: "Special Item",
     sale: false,
     review: true,
@@ -84,6 +104,9 @@ let product = [
       "https://images.pexels.com/photos/3373718/pexels-photo-3373718.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
+    id: "8",
+    quantity: 0,
+
     title: "Popular Item",
     sale: false,
     review: true,

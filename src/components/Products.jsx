@@ -3,7 +3,12 @@ import product from "./product";
 import Card from "./component/Card";
 import "./styles/product.css";
 
-const Products = () => {
+const Products = ({
+  currentProduct,
+  setCurrentProduct,
+  isModalOpen,
+  setIsModalOpen,
+}) => {
   const renderStar = () => {
     return (
       <svg
@@ -46,9 +51,14 @@ const Products = () => {
             return (
               <>
                 <Card
+                  key={n}
                   item={item}
                   renderStar={renderStar}
                   renderDiscount={renderDiscount}
+                  currentProduct={currentProduct}
+                  setCurrentProduct={setCurrentProduct}
+                  isModalOpen={isModalOpen}
+                  setIsModalOpen={setIsModalOpen}
                 />
               </>
             );
